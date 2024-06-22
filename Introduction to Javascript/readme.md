@@ -112,27 +112,27 @@ let studentDegree = 90;
 
 ## 🔹 JavaScriptdə dəyişənlərin adlandırılması
 
-- ❌  Dəyişən adları [rezerv edilmiş sözlər]((https://www.w3schools.com/js/js_reserved.asp)) ola bilməz
+- Dəyişən adları [rezerv edilmiş sözlər]((https://www.w3schools.com/js/js_reserved.asp)) ola bilməz
 ```javascript
-let in = 'reserved'
+❌ let in = 'reserved'
 ```
 
-- ❌  Dəyişən adlarında boşluq qoyula bilməz
+- Dəyişən adlarında boşluq qoyula bilməz
 ```javascript
-let welcome Message = 'salam'
+❌ let welcome Message = 'salam'
 ```
 
-- ✔️ Dəyişən adları hərf, alt xətt (_) və ya dollar işarəsi ($) ilə başlamalıdır.
+- Dəyişən adları hərf, alt xətt (_) və ya dollar işarəsi ($) ilə başlamalıdır.
 ```javascript
-let message = 'This is my message'
-let _message = 'This is my message'
-let $message = 'This is my message'
+✔️ let message = 'This is my message'
+✔️ let _message = 'This is my message'
+✔️ let $message = 'This is my message'
 ```
 
 - ✔️ Dəyişən adları təyin edərkən camelCase-dən istifadə etmək
 
 ```javascript
-var studentList = ["Rafi", "Alimdar", "Ayxan", ]
-var totalPrice = 50
-var firstName = 'Rafi'
+✔️ var studentList = ["Rafi", "Alimdar", "Ayxan", ]
+✔️ var totalPrice = 50
+✔️ var firstName = 'Rafi'
 ```
