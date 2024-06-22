@@ -101,3 +101,11 @@ Yuxarıda gördüyünüz kimi əvvəlcədən a-ya heç bir şey təyin etmədiyi
 var və let-də sonradan string və s. təyin edib **console.log** etdikdə görünür lakin const-da sonradan string və s. təyin etsək görünməyəcək.
 
 Nəticə olaraq ona deyə bilərik ki, **var** və **let**'də hoisting məsələləri uyğunlaşdırıla bilər ama constda deyil. 
+
+JavaScriptdə çox zaman dəyişənlər yuxarıdaki nümunə kimi təyin edilmir, əvvəlcədən təyin edilir və dəyişdirilə bilir.
+
+```javascript
+let searchedParams = '123'
+let numbersAll = [1, 2, 3, 4, 5]
+let studentDegree = 90;
+```
