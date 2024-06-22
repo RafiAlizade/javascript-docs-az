@@ -112,7 +112,7 @@ let studentDegree = 90;
 
 ## 🔹 JavaScriptdə dəyişənlərin adlandırılması
 
-- Dəyişən adları [Rezerv edilmiş sözlər](https://www.w3schools.com/js/js_reserved.asp) ola bilməz
+- Dəyişən adları [rezerv edilmiş sözlər](https://www.w3schools.com/js/js_reserved.asp) ola bilməz
 ```javascript
 ❌ let in = 'reserved'
 ```
