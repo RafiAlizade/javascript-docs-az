@@ -4,6 +4,8 @@ Bu hissədə JavaScriptin qoşulma üsulları, BOM və DOM haqqında, dəyişən
 
 Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövisyyə edirəm.
 
+> Kod sətirlərinə baxmaq üçün index bölümünə baxın
+
 ## Scriptin qoşulma üsulları
 
 Javascriptin 2 cür qoşulma üsulu vardır, External və Internal üsulları.
@@ -28,5 +30,3 @@ Internal `head` və ya `body` taglarının arasında yazıla bilər.
 Əgər siz `head` daxilində yazırsınızsa səhifə yüklənərkən kod bloklarımızda işə düşəcəkdir, yəni səhifə yüklənərkən script işə düşəcək
 
 Əgər siz `body` sonunda yazırsınızsa səhifənin böyük hissəsi yükləndikdən sonra script işə düşəcəkdir, yəni səhifə yüklənərkən işə düşməyəcəkdir və bu layihələrə görə dezavantaj ola bilər.
-
-> Kod sətirlərinə baxmaq üçün index bölümünə baxın
