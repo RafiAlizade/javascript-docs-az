@@ -12,5 +12,5 @@ External ``head`` və ya ``body`` taglarının arasında yazıla bilər.
 
 ``defer`` scriptin digər komponentlərlə birlikdə yüklənməsini təmin edir ama digər scriptlər və komponentlər yükləndikdən sonra işə düşür.
 
-``<script src="script.js" async></script>``
+``<script src="script.js" async></script>``  
 ``<script src="script.js" defer></script>``
