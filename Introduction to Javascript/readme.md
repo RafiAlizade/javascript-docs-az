@@ -129,7 +129,7 @@ let studentDegree = 90;
 ✔️ let $message = 'This is my message'
 ```
 
-- ✔️ Dəyişən adları təyin edərkən camelCase-dən istifadə etmək
+- Dəyişən adları təyin edərkən camelCase-dən istifadə etmək
 
 ```javascript
 ✔️ var studentList = ["Rafi", "Alimdar", "Ayxan", ]
