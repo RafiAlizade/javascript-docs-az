@@ -2,6 +2,8 @@
 
 Bu hissədə JavaScriptin qoşulma üsulları, BOM və DOM haqqında, dəyişənlər haqqında, Hoisting məsələsi haqqında, data tipləri və if/else şərtləri haqqında yazılıb.
 
+Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövisyyə edirəm.
+
 ## Async və Defer
 
 Javascriptin 2 cür qoşulma üsulu vardır, External və Internal üsulları.
