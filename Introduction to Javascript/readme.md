@@ -47,8 +47,9 @@ console.error('Bu bir BOM nümunəsidir, log zamanı error tipli gəlir')
 
 DOM örnəkləri üçün tez olsa da sizin üçün kiçik bir örnək yazıram
 
+Aşağıdaki nümunədə changeColor-a click edəndə header1-in arxaplan rənginin dəyişməsini təmin edirik, Javascript ilə Document daxilindəki taglara və s. təsir edirik
+
 ```
-// ! DOM nümunəsi
 
 let header1 = document.querySelector('h1')
 let changeColor = document.querySelector('button')
