@@ -6,29 +6,27 @@ Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövi
 
 ## Scriptin qoşulma üsulları
 
-
 Javascriptin 2 cür qoşulma üsulu vardır, External və Internal üsulları.
 
 ### External
 
-External ``head`` və ya ``body`` taglarının arasında yazıla bilər. 
+External `head` və ya `body` taglarının arasında yazıla bilər.
 
-Əgər siz ``head`` daxilində yazırsınızsa async və ya defer olaraq yüklənmə və işə salma tipini seçməlisiniz.
+Əgər siz `head` daxilində yazırsınızsa async və ya defer olaraq yüklənmə və işə salma tipini seçməlisiniz.
 
-``async`` (Asynchronous sözündən götürülüb) scriptin digər komponentlərlə birlikdə yüklənməsini təmin edir, yəni başqa bir scriptin və ya komponentin yüklənməsini gözləmir.
+`async` (Asynchronous sözündən götürülüb) scriptin digər komponentlərlə birlikdə yüklənməsini təmin edir, yəni başqa bir scriptin və ya komponentin yüklənməsini gözləmir.
 
-``defer`` scriptin digər komponentlərlə birlikdə yüklənməsini təmin edir ama digər scriptlər və komponentlər yükləndikdən sonra işə düşür.
+`defer` scriptin digər komponentlərlə birlikdə yüklənməsini təmin edir ama digər scriptlər və komponentlər yükləndikdən sonra işə düşür.
 
-``<script src="script.js" async></script>``  
-``<script src="script.js" defer></script>``
+`<script src="script.js" async></script>`  
+`<script src="script.js" defer></script>`
 
 ### Internal
 
-Internal ``head`` və ya ``body`` taglarının arasında yazıla bilər.
+Internal `head` və ya `body` taglarının arasında yazıla bilər.
 
-Əgər siz ``head`` daxilində yazırsınızsa səhifə yüklənərkən kod bloklarımızda işə düşəcəkdir, yəni səhifə yüklənərkən script işə düşəcək
+Əgər siz `head` daxilində yazırsınızsa səhifə yüklənərkən kod bloklarımızda işə düşəcəkdir, yəni səhifə yüklənərkən script işə düşəcək
 
-Əgər siz ``body`` sonunda yazırsınızsa səhifənin böyük hissəsi yükləndikdən sonra script işə düşəcəkdir, yəni səhifə yüklənərkən işə düşməyəcəkdir və bu layihələrə görə dezavantaj ola bilər.
+Əgər siz `body` sonunda yazırsınızsa səhifənin böyük hissəsi yükləndikdən sonra script işə düşəcəkdir, yəni səhifə yüklənərkən işə düşməyəcəkdir və bu layihələrə görə dezavantaj ola bilər.
 
-
-
+> Kod sətirlərinə baxmaq üçün index bölümünə baxın
