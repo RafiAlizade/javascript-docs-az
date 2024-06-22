@@ -32,6 +32,9 @@ Internal `head` və ya `body` taglarının arasında yazıla bilər.
 Əgər siz `body` sonunda yazırsınızsa səhifənin böyük hissəsi yükləndikdən sonra script işə düşəcəkdir, yəni səhifə yüklənərkən işə düşməyəcəkdir və bu layihələrə görə dezavantaj ola bilər.
 
 
+
+
+
 ## BOM və DOM 
 
 BOM - Browser Object Model, web səhifəsiylə qarşılıqlı əlaqə yaratmaq üçün istifadə olunan obyekt modelidir.
@@ -50,7 +53,6 @@ DOM örnəkləri üçün tez olsa da sizin üçün kiçik bir örnək yazıram
 Aşağıdaki nümunədə changeColor-a click edəndə header1-in arxaplan rənginin dəyişməsini təmin edirik, Javascript ilə Document daxilindəki taglara və s. təsir edirik
 
 ```
-
 let header1 = document.querySelector('h1')
 let changeColor = document.querySelector('button')
 
