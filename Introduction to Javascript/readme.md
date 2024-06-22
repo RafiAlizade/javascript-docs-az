@@ -114,10 +114,25 @@ let studentDegree = 90;
 
 - Dəyişən adları [rezerv edilmiş sözlər]((https://www.w3schools.com/js/js_reserved.asp)) ola bilməz
 ```javascript
-❌ var in = 'reserved'
+❌ let in = 'reserved'
 ```
 
 - Dəyişən adlarında boşluq qoyula bilməz
 ```javascript
-❌ var welcome Message = 'salam'
+❌ let welcome Message = 'salam'
+```
+
+- Dəyişən adları hərf, alt xətt (_) və ya dollar işarəsi ($) ilə başlamalıdır.
+```javascript
+✔️ let message = 'This is my message'
+✔️ let _message = 'This is my message'
+✔️ let $message = 'This is my message'
+```
+
+- Dəyişən adları təyin edərkən camelCase-dən istifadə etmək
+
+```javascript
+✔️ var studentList = ["Rafi", "Alimdar", "Ayxan", ]
+✔️ var totalPrice = 50
+✔️ var firstName = 'Rafi'
 ```
