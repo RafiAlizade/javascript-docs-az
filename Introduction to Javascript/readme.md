@@ -114,7 +114,7 @@ let studentDegree = 90;
 
 - Dəyişən adları [rezerv edilmiş sözlər]((https://www.w3schools.com/js/js_reserved.asp)) ola bilməz
 ```javascript
-var in = 'reserved'
+❌ var in = 'reserved'
 ```
 
 - Dəyişən adlarında boşluq qoyula bilməz
