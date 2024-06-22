@@ -4,9 +4,12 @@ Bu hissədə JavaScriptin qoşulma üsulları, BOM və DOM haqqında, dəyişən
 
 Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövisyyə edirəm.
 
-## Async və Defer
+## Scriptin qoşulma üsulları
+
 
 Javascriptin 2 cür qoşulma üsulu vardır, External və Internal üsulları.
+
+### External
 
 External ``head`` və ya ``body`` taglarının arasında yazıla bilər. 
 
@@ -18,3 +21,14 @@ External ``head`` və ya ``body`` taglarının arasında yazıla bilər.
 
 ``<script src="script.js" async></script>``  
 ``<script src="script.js" defer></script>``
+
+### Internal
+
+Internal ``head`` və ya ``body`` taglarının arasında yazıla bilər.
+
+Əgər siz ``head`` daxilində yazırsınızsa səhifə yüklənərkən kod bloklarımızda işə düşəcəkdir, yəni səhifə yüklənərkən script işə düşəcək
+
+Əgər siz ``body`` sonunda yazırsınızsa səhifənin böyük hissəsi yükləndikdən sonra script işə düşəcəkdir, yəni səhifə yüklənərkən işə düşməyəcəkdir və bu layihələrə görə dezavantaj ola bilər.
+
+
+
