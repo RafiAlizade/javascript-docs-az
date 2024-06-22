@@ -60,3 +60,44 @@ changeColor.addEventListener('click', function(e) {
     header1.style.backgroundColor = 'red';
 })
 ```
+
+## 🔹 Dəyişənlər (Variables)
+
+Hal-hazırda JavaScriptdə 3 dəyişən mövcüddur, bunlara 
+
+- var
+- let
+- const
+
+aitdir.
+
+Dəyişənləri adlandırdıqdan sonra onları stringlərə, obyektlərə, arraylara və s. təyin etmək olar
+
+```javascript
+var message = 'bu bir mesajdır'
+let message = 'bu bir mesajdır'
+const message = 'bu bir mesajdır'  
+```
+
+**var** və **let, const** arasındaki başlıca fərqlərdən biri onların yaddaşda tutduğu yerdir, **var** 8 bitlik bir tutuma malikdir ama **let və const** 1 bit tutuma malik olduğu üçün let və const istifadəsi daha çoxdur.
+
+**const** təyin edildikdən sonra dəyişdirilə bilməz
+
+## 🔹 Hoisting məsələsi
+
+Hoisting deyildikdə JavaScriptdə kod ardıcıllığı nəzərdə tutulur, HTML və CSS-də olduğu kimi burda da sətirlərə görə fərqlər yarana bilər, aşağıda Hoisting məsələsinə uyğun bir nümunə tapa bilərsiniz.
+
+```javascript
+var a;
+console.log(a);
+// Konsolda görünən : undefined
+a = 'Hoisting '
+console.log(a);
+// Konsolda görünən : Hoisting
+```
+
+Yuxarıda gördüyünüz kimi əvvəlcədən a-ya heç bir şey təyin etmədiyimiz üçün **undefined** olaraq görünür lakin sonradan string təyin etdiyimiz üçün yazdığımız yazı konsolda görünür.
+
+var və let-də sonradan string və s. təyin edib **console.log** etdikdə görünür lakin const-da sonradan string və s. təyin etsək görünməyəcək.
+
+Nəticə olaraq ona deyə bilərik ki, **var** və **let**'də hoisting məsələləri uyğunlaşdırıla bilər ama constda deyil. 
