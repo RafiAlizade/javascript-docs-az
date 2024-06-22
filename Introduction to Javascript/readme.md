@@ -109,3 +109,15 @@ let searchedParams = '123'
 let numbersAll = [1, 2, 3, 4, 5]
 let studentDegree = 90;
 ```
+
+## 🔹 JavaScriptdə dəyişənlərin adlandırılması
+
+- Dəyişən adları [rezerv edilmiş sözlər]((https://www.w3schools.com/js/js_reserved.asp)) ola bilməz
+```javascript
+var in = 'reserved'
+```
+
+- Dəyişən adlarında boşluq qoyula bilməz
+```javascript
+❌ var welcome Message = 'salam'
+```

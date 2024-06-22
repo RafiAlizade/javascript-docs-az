@@ -29,5 +29,7 @@ console.log(messageExample);
 
 var a;
 console.log(a);
+// Konsolda görünəcək : undefined
 a = 'salam'
 console.log(a);
+// Konsolda görünəcək : 'salam'
