@@ -1,4 +1,4 @@
-# Giriş
+# ⚡ Giriş
 
 Bu hissədə JavaScriptin qoşulma üsulları, BOM və DOM haqqında, dəyişənlər haqqında, Hoisting məsələsi haqqında, data tipləri və if/else şərtləri haqqında yazılıb.
 
@@ -6,11 +6,11 @@ Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövi
 
 > Kod sətirlərinə baxmaq üçün index bölümünə baxın
 
-## Scriptin qoşulma üsulları
+## 🔹 Scriptin qoşulma üsulları
 
 Javascriptin 2 cür qoşulma üsulu vardır, External və Internal üsulları.
 
-### External
+### 🗂️ External
 
 External `head` və ya `body` taglarının arasında yazıla bilər.
 
@@ -23,7 +23,7 @@ External `head` və ya `body` taglarının arasında yazıla bilər.
 `<script src="script.js" async></script>`  
 `<script src="script.js" defer></script>`
 
-### Internal
+### 🗂️ Internal
 
 Internal `head` və ya `body` taglarının arasında yazıla bilər.
 
@@ -35,18 +35,18 @@ Internal `head` və ya `body` taglarının arasında yazıla bilər.
 
 
 
-## BOM və DOM 
+## 🔹 BOM və DOM 
 
 BOM - Browser Object Model, web səhifəsiylə qarşılıqlı əlaqə yaratmaq üçün istifadə olunan obyekt modelidir.
 DOM - Document Object Model web səhifəsinin məzmununu və quruluşunu təmsil edən bir proqram interfeysidir.
 
-### BOM örnəkləri 
+### 🗂️ BOM örnəkləri 
 
 console.log('Bu bir BOM nümunəsidir, default log tipidir.')
 console.warn('Bu bir BOM nümunəsidir, log zamanı xəbərdarlıq tipli gəlir')
 console.error('Bu bir BOM nümunəsidir, log zamanı error tipli gəlir')
 
-### DOM örnəkləri
+### 🗂️ DOM örnəkləri
 
 DOM örnəkləri üçün tez olsa da sizin üçün kiçik bir örnək yazıram
 
