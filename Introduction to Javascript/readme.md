@@ -256,6 +256,14 @@ console.log(getUsername);
 
 // Konsolda görünən : rafializade
 
+Confirm vasitəsilə istifadəçidən data almaq
 
+let getuserAgree = confirm('Qəbul edirsiniz?')
 
+İstifadəçi confirmdə "Bəli" və ya "Xeyr" seçərsə onun seçimini siz confirm vasitəsilə əldə edə bilərsiniz
+
+console.log(getuserAgree); 
+
+// İstifadəçi xeyr seçərsə konsolda görünən : false
+// İstifadəçi bəli seçərsə konsolda görünən : false
 ```

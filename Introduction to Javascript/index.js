@@ -126,14 +126,27 @@ function getData() {
 
 getData()
 
-// Konsolda görünən : 1 2 3 4 5 
+// // Konsolda görünən : 1 2 3 4 5 
 
 // ! İstifadəçidən məlumat almaq
 
-let getUsername = prompt('Enter your username')
+// ! Prompt vasitəsilə
+
+// let getUsername = prompt('Enter your username')
 
 // İstifadəçi prompta adını daxil etsə (məsələn 'rafializade') konsolda şəxsin yazdığı string olaraq konsola gələcək
 
-console.log(getUsername);
+// console.log(getUsername);
 
 // Konsolda görünən : rafializade
+
+// ! Alert vasitəsilə
+
+let getuserAgree = confirm('Qəbul edirsiniz?')
+
+// İstifadəçi confirmdə "Bəli" və ya "Xeyr" seçərsə onun seçimini siz confirm vasitəsilə əldə edə bilərsiniz
+
+console.log(getuserAgree); 
+
+// İstifadəçi xeyr seçərsə konsolda görünən : false
+// İstifadəçi bəli seçərsə konsolda görünən : false
