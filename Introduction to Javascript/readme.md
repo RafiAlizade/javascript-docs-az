@@ -256,6 +256,8 @@ console.log(getUsername);
 
 // Konsolda görünən : rafializade
 
+!! 
+
 Confirm vasitəsilə istifadəçidən data almaq
 
 let getuserAgree = confirm('Qəbul edirsiniz?')
