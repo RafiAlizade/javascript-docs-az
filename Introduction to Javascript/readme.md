@@ -152,16 +152,60 @@ JavaScriptdə 2 cür data tipi mövcüddur.
 - Symbol
 
 ```javascript
-String tipləri 
+String tipi
 
 let str = 'this is a string'
 let userName = 'rafializade'
 
-// ! Stringlərin birləşdirilməsi
+// Stringlərin birləşdirilməsi
 
 let mergedText = `${str} ${username} `
 
 console.log(mergedText);
 
 // Konsolda görünən : this is a string rafializade
+
+Number tipi 
+
+let numberExample = '12345'
+let numberExample2 = 1234
+
+console.log(typeof numberExample);
+// Konsolda görünən - string  , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+console.log(typeof numberExample2); 
+// Konsolda görünən - number , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+Bigint tipi
+
+let bigintExample = 123234562345672345632456
+console.log(typeof bigintExample);
+// Konsolda görünən - bigint , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+Undefined tipi
+
+let undefinedExample = undefined
+console.log(typeof undefinedExample);
+// Konsolda görünən - undefinedExample , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+Null tipi
+
+let nullExample = null
+console.log(typeof nullExample);
+// Konsolda görünən - null , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+Boolean tipi
+
+let isStudent = false
+console.log(isStudent);
+// Konsolda görünən - false , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+console.log(typeof isStudent);
+// Konsolda görünən - boolean , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+Symbol tipi
+
+let symbolExample = Symbol(undefined)
+console.log(symbolExample);
+// Konsolda görünən - Symbol() , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+console.log(typeof symbolExample);
+// Konsolda görünən - symbol , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 ```
