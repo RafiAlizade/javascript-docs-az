@@ -229,12 +229,17 @@ let objectsExample = {
     isStudent: true
 }
 
+-- 
+
 Array tipi
 
 let arrayExample = ["1", "2", "3", "4", "5"]
+
+--
 
 Function tipi
 
 function getData() {
     arrayExample.forEach((numbers) => console.log(numbers))
 }
+```
