@@ -165,6 +165,8 @@ console.log(mergedText);
 
 // Konsolda görünən : this is a string rafializade
 
+!! 
+
 Number tipi 
 
 let numberExample = '12345'
@@ -175,11 +177,15 @@ console.log(typeof numberExample);
 console.log(typeof numberExample2); 
 // Konsolda görünən - number , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 
+!! 
+
 Bigint tipi
 
 let bigintExample = 123234562345672345632456
 console.log(typeof bigintExample);
 // Konsolda görünən - bigint , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+!! 
 
 Undefined tipi
 
@@ -187,11 +193,15 @@ let undefinedExample = undefined
 console.log(typeof undefinedExample);
 // Konsolda görünən - undefinedExample , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 
+!! 
+
 Null tipi
 
 let nullExample = null
 console.log(typeof nullExample);
 // Konsolda görünən - null , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+!! 
 
 Boolean tipi
 
@@ -200,6 +210,8 @@ console.log(isStudent);
 // Konsolda görünən - false , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 console.log(typeof isStudent);
 // Konsolda görünən - boolean , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+!! 
 
 Symbol tipi
 
@@ -229,9 +241,13 @@ let objectsExample = {
     isStudent: true
 }
 
+!! 
+
 Array tipi
 
 let arrayExample = ["1", "2", "3", "4", "5"]
+
+!! 
 
 Function tipi
 
