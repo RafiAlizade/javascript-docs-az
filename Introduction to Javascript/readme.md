@@ -209,3 +209,32 @@ console.log(symbolExample);
 console.log(typeof symbolExample);
 // Konsolda görünən - symbol , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 ```
+
+### 🗂️ Reference tiplər
+
+- Objects
+- Function
+- Array
+
+> Bu dərslikdə qısa məlumat verəcəyəm, bu mövzular haqqında məlumatları gələcək dərslərdə öyrənəcəksiniz
+
+```javascript
+
+Objects tipi
+
+let objectsExample = {
+    id: 1,
+    name: "rafi",
+    surname: "alizade",
+    isStudent: true
+}
+
+Array tipi
+
+let arrayExample = ["1", "2", "3", "4", "5"]
+
+Function tipi
+
+function getData() {
+    arrayExample.forEach((numbers) => console.log(numbers))
+}
