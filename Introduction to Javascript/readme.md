@@ -229,17 +229,33 @@ let objectsExample = {
     isStudent: true
 }
 
--- 
-
 Array tipi
 
 let arrayExample = ["1", "2", "3", "4", "5"]
-
---
 
 Function tipi
 
 function getData() {
     arrayExample.forEach((numbers) => console.log(numbers))
 }
+```
+
+## 🔹 İstifadəçidən məlumat almaq 
+
+İstifadəçidən məlumat almaq üçün **prompt** və ya **confirm**'dən istifadə edə bilərik.
+
+```javascript
+
+Prompt vasitəsilə istifadəçidən data almaq
+
+let getUsername = prompt('Enter your username')
+
+İstifadəçi prompta adını daxil etsə (məsələn 'rafializade') konsolda şəxsin yazdığı string olaraq konsola gələcək, şəxs sadəcə number daxil etsə belə bizə string olaraq gələcək
+
+console.log(getUsername);
+
+// Konsolda görünən : rafializade
+
+
+
 ```

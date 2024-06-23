@@ -37,6 +37,8 @@ console.log(a);
 
 // ! Data tipləri
 
+// Primitive tiplər
+
 // ! String tipi
 
 let str = 'this is a string'
@@ -92,3 +94,46 @@ console.log(symbolExample);
 // Konsolda görünən - Symbol() , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
 console.log(typeof symbolExample);
 // Konsolda görünən - symbol , typeof vasitəsilə biz dəyişənin tipini müəyyən edə bilirik
+
+
+// Reference tiplər
+
+// ! Objects tipi
+
+let objectsExample = {
+    id: 1,
+    name: "rafi",
+    surname: "alizade",
+    isStudent: true
+}
+
+console.log(objectsExample);
+
+// Konsolda görünən : {id: 1, name: 'rafi', surname: 'alizade', isStudent: true}
+
+// ! Array tipi
+
+let arrayExample = ["1", "2", "3", "4", "5"]
+console.log(arrayExample);
+
+// Konsolda görünən : (5) ['1', '2', '3', '4', '5']
+
+// ! Function tipi
+
+function getData() {
+    arrayExample.forEach((numbers) => console.log(numbers))
+}
+
+getData()
+
+// Konsolda görünən : 1 2 3 4 5 
+
+// ! İstifadəçidən məlumat almaq
+
+let getUsername = prompt('Enter your username')
+
+// İstifadəçi prompta adını daxil etsə (məsələn 'rafializade') konsolda şəxsin yazdığı string olaraq konsola gələcək
+
+console.log(getUsername);
+
+// Konsolda görünən : rafializade
