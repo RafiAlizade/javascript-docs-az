@@ -33,3 +33,15 @@ console.log(a);
 a = 'salam'
 console.log(a);
 // Konsolda görünəcək : 'salam'
+
+
+// ! Data tipləri
+
+let str = 'this is a string'
+let userName = 'rafializade'
+
+// ! Stringlərin birləşdirilməsi
+
+let mergedText = `${str} ${userName}`
+
+console.log(mergedText);

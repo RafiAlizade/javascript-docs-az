@@ -136,3 +136,32 @@ let studentDegree = 90;
 ✔️ var totalPrice = 50
 ✔️ var firstName = 'Rafi'
 ```
+
+## 🔹 JavaScriptdə data tipləri
+
+JavaScriptdə 2 cür data tipi mövcüddur.
+
+### 🗂️ Primitive tiplər
+
+- String
+- Number
+- Bigint
+- Undefined 
+- Null
+- Boolean (true/false)
+- Symbol
+
+```javascript
+String tipləri 
+
+let str = 'this is a string'
+let userName = 'rafializade'
+
+// ! Stringlərin birləşdirilməsi
+
+let mergedText = `${str} ${username} `
+
+console.log(mergedText);
+
+// Konsolda görünən : this is a string rafializade
+```
