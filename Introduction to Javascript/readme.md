@@ -283,5 +283,70 @@ let getuserAgree = confirm('Qəbul edirsiniz?')
 console.log(getuserAgree); 
 
 // İstifadəçi xeyr seçərsə konsolda görünən : false
-// İstifadəçi bəli seçərsə konsolda görünən : false
+// İstifadəçi bəli seçərsə konsolda görünən : true
+```
+
+## 🔹 Conditional statement
+
+**Conditional statement**'lər çox zaman şərtləri yoxlamaq üçün istifadə edilir, **Conditional statement** web developerlikdə çox geniş istifadə edilir. 
+
+```javascript
+let age = 12;
+
+if (age <= 12) {
+    console.log('Sizin yaşınız 12-dən kiçikdir ')
+} else {
+    console.log('Sizin yaşınız 12-dən böyükdür ')
+}
+
+// Konsolda görünən : Sizin yaşınız 12-dən kiçikdir
+
+(Buradaki <= işarəsi 12 daxil olmaqla nəzərə alır, əgər => 12 olsaydı 12 daxil olmaqla böyük rəqəmləri nəzərə alar)
+```
+
+**Conditional statment** vasitəsilə bir neçə şərti bir yerdə yoxlamaq mümkündür, bunlar **&& (and**)** və **|| (or)** operatoru vasitəsilə yoxlanılır
+
+**&&** - Şərtin hər bir tərəfini yoxlayır, məsələn 3 şərt yazdıqda hər 3 şərtin ödənilməsi lazımdır.
+
+**||** - Şərtin hər bir tərəfini yoxlayır, məsələn 2 şərt qeyd ediriksə birinin ödənilməsi kifayətdir.
+
+```javascript
+
+!! 
+
+let isStudent = confirm('Siz tələbisiniz?')
+let gpaScore = prompt('Ortalama balınızı daxil edin?')
+
+if (isStudent && gpaScore >= 91) {
+    console.log('Your degree is A')
+} else if (isStudent && gpaScore >= 81) {
+    console.log('Your degree is B')
+} else {
+    console.log('You have not permission to continue')
+}
+
+// Əgər istifadəçi tələbə olduğunu qəbul edib balını 82 qeyd edərsə Konsolda görünən : Your degree is B
+// Əgər istifadəçi tələbə olduğunu qəbul edib balını 92 qeyd edərsə Konsolda görünən : Your degree is A
+// Əgər istifadəçi tələbə olduğunu qəbul edib balını 81-dən aşağı qeyd edərsə Konsolda görünən : You have not permission to continue
+// Əgər istifadəçi tələbə olduğunu qəbul etməyib hərhansı bal qeyd edərsə Konsolda görünən : You have not permission to continue
+
+!! 
+
+Burada ilk öncə soldaki şərt yoxlanılır (şəxsin tələbə olub olmadığı) daha sonra gpaScore yoxlanılır
+
+let isStudent = confirm('Siz tələbisiniz?')
+let gpaScore = prompt('Ortalama balınızı daxil edin?')
+
+if (isStudent || gpaScore >= 91) {
+    console.log('Your degree is A')
+} else if (isStudent || gpaScore >= 81) {
+    console.log('Your degree is B')
+} else {
+    console.log('You have not permission to continue')
+}
+
+// Burada istifadəçi tələbə oldduğunu qəbul etməyib ortalama balını 92 yazsa belə Konsolda görünən : Your degree is A
+// Burada istifadəçi tələbə oldduğunu qəbul etməyib ortalama balını 82 yazsa belə Konsolda görünən : Your degree is B
+// Burada istifadəçi tələbə oldduğunu qəbul etməyib ortalama balını 10 yazsa Konsolda görünən : You have not permission to continue
+
 ```

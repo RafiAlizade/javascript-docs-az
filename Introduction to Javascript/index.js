@@ -126,7 +126,7 @@ function getData() {
 
 getData()
 
-// // Konsolda görünən : 1 2 3 4 5 
+// Konsolda görünən : 1 2 3 4 5 
 
 // ! İstifadəçidən məlumat almaq
 
@@ -142,11 +142,49 @@ getData()
 
 // ! Alert vasitəsilə
 
-let getuserAgree = confirm('Qəbul edirsiniz?')
+// let getuserAgree = confirm('Qəbul edirsiniz?')
 
 // İstifadəçi confirmdə "Bəli" və ya "Xeyr" seçərsə onun seçimini siz confirm vasitəsilə əldə edə bilərsiniz
 
-console.log(getuserAgree); 
+// console.log(getuserAgree); 
 
 // İstifadəçi xeyr seçərsə konsolda görünən : false
 // İstifadəçi bəli seçərsə konsolda görünən : false
+
+// ! Conditional statements
+
+// let age = 12;
+
+// if (age <= 12) {
+//     console.log('Sizin yaşınız 12-dən kiçikdir ')
+// } else {
+//     console.log('Sizin yaşınız 12-dən böyükdür ')
+// }
+
+// ! Conditional statements operators
+
+// AND operator
+
+// let isStudent = confirm('Siz tələbisiniz?')
+// let gpaScore = prompt('Ortalama balınızı daxil edin?')
+
+// if (isStudent && gpaScore >= 91) {
+//     console.log('Your degree is A')
+// } else if (isStudent && gpaScore >= 81) {
+//     console.log('Your degree is B')
+// } else {
+//     console.log('You have not permission to continue')
+// }
+
+// OR operator
+
+let isStudent = confirm('Siz tələbisiniz?')
+let gpaScore = prompt('Ortalama balınızı daxil edin?')
+
+if (isStudent || gpaScore >= 91) {
+    console.log('Your degree is A')
+} else if (isStudent || gpaScore >= 81) {
+    console.log('Your degree is B')
+} else {
+    console.log('You have not permission to continue')
+}
