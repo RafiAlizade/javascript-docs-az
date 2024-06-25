@@ -26,7 +26,7 @@ console.log(numberString)
 console.log(typeof numberString) 
 // Konsolda görünən : String
 
-``Üsul 1``
+`Üsul 1`
 
 
 let stringtoNumber = parseInt(numberString)
