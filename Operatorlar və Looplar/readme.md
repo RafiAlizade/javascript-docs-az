@@ -115,6 +115,24 @@ console.log(Number(boolExample2))
 Tipləri isə default olaraq number olacaq.
 ```
 
+## 🔹 Concat (birləşirmə)
+
+Biz JavaScriptdə **concat** üsullarından geniş istifadə edirik, bu çox zaman istifadəçidən alınnan dataylı hərhansı bir mesajı almaq, ötürmək üçün istifadə edilir. Concat sözünün mənası JavaScriptdə birləşdirmə deməkdir.
+
+```javascript
+
+let concatExample1 = 'Salam'
+let concatExample2 = 'Mən'
+let concatExample3 = 'JavaScript öyrənirəm'
+
+let concatString = `${concatExample1} ${concatExample2} ${concatExample3}`
+
+console.log(concatString)
+
+// Konsolda görünən : Salam Mən JavaScript öyrənirəm
+
+
+
 
 
 

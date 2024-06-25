@@ -73,3 +73,13 @@ console.log(Number(boolExample))
 // Konsolda görünən : 1
 console.log(Number(boolExample2))
 // Konsolda görünən : 0
+
+// ! String concat
+
+let concatExample1 = 'Salam'
+let concatExample2 = 'Mən'
+let concatExample3 = 'JavaScript öyrənirəm'
+
+let concatString = `${concatExample1} ${concatExample2} ${concatExample3}`
+
+console.log(concatString)
