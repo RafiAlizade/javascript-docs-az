@@ -8,6 +8,8 @@ Bu hissələri oxuduqdan sonra mütləq şəkildə kodlara baxmağınızı tövi
 
 ## 🔹 Tiplərin çevrilməsi
 
+### 🗂️ Number tipdən stringə tipə çevirmə
+
 Number tipləri 2 cür mövcüddur;
 - Integer (tam ədədlər) - 1, 2, 3, 4 və s.
 - Float (kəsr ədədləri) - 1.4785 , 1.748 və s.
@@ -66,3 +68,54 @@ console.log(+numberString)
 
 console.log(typeof +numberString)
 // Konsolda görünən: Number
+```
+
+### 🗂️ String tipdən number tipə çevirmə
+
+Biz JavaScriptdə **number tipləri və boolean tipləri string tiplərə çevirə bilərik və ya əksinə**
+
+```javascript
+
+let numberExample = 1234;
+let booleanExample = true;
+
+Numberlərin çevrilməsi
+
+console.log(numberExample.toString())
+// Konsolda görünən : 1234
+console.log(typeof numberExample.toString())
+// Konsolda görünən : String
+
+Booleanların çevrilməsi
+
+console.log(booleanExample.toString())
+// Konsolda görünən : true
+console.log(typeof booleanExample.toString())
+// Konsolda görünən : String
+```
+### 🗂️ Boolean tipdən number tipə çevirmə
+
+Biz JavaScriptdə **boolean tipləri number tiplərə çevirə bilərik və ya əksinə**
+
+- true : 1
+- false : 0
+
+JavaScriptdə və proqramlaşdırmada true çox zaman 1 olaraq, false isə 0 olaraq işarələnir.
+
+
+```javascript
+let boolExample = true;
+let boolExample2 = false;
+
+console.log(Number(boolExample))
+// Konsolda görünən : 1
+console.log(Number(boolExample2))
+// Konsolda görünən : 0
+
+Tipləri isə default olaraq number olacaq.
+```
+
+
+
+
+
