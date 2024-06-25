@@ -115,7 +115,7 @@ console.log(Number(boolExample2))
 Tipləri isə default olaraq number olacaq.
 ```
 
-## 🔹 Concat (birləşirmə)
+## 🔹 String concat (stringlərin birləşməsi)
 
 Biz JavaScriptdə **concat** üsullarından geniş istifadə edirik, bu üsul çox zaman obyektlərdən key vasitəsilə alınan dataları mesajlarda birləşdirmək və s. üçün istifadə olunur. Concat sözünün mənası JavaScriptdə birləşdirmə deməkdir.
 
